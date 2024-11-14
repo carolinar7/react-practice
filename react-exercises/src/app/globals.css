@@ -9,13 +9,13 @@ body {
 @layer base {
   :root {
     --background: #000;
-    --foreground: #52525b;
+    --foreground: #ddffdc99;
     --primary: #90ed5e;
     --secondary: #ddffdc;
   }
   .dark {
     --background: #000;
-    --foreground: #52525b;
+    --foreground: #ddffdc99;
     --primary: #90ed5e;
     --secondary: #ddffdc;
   }
