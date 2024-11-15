@@ -1,14 +1,14 @@
 import { Sidebar } from "./sidebar/sidebar";
 
 interface PageProps {
-  pageContent: React.ReactElement
+  children: React.ReactNode
 }
 
-export function Page({ pageContent }: PageProps): React.ReactElement {
+export function Page({ children }: PageProps): React.ReactNode {
   return (
     <div className="flex">
       <Sidebar />
-      {pageContent}
+      {children}
     </div>
   )
 }
